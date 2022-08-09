@@ -1,0 +1,76 @@
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 Responsive Table Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+ <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.">  
+        
+</head>      
+<body>     
+		<div class="container mb-3 mt-3">
+			<table class="table tablestriped table-bordered mydatatable" style="width: 100">
+			<thead>
+				<tr>
+					<th>  </th>
+					<th> Lender </th>
+					<th> Account type </th>
+					<th> Account No </th>
+					<th> Owenship </th>
+					<th> Date Reported </th>
+					<th> Account Status </th>
+					<th> Date Opened </th>
+					<th> Sanction Amt/Highest Credit </th>
+					<th> Current Balance </th> 
+					<th> Amount Overdue </th>
+				</tr>
+			</thead
+			<tbody>
+				<tr>
+					<td> AXX </td>
+						<td> Saving </td>
+						<td> 13244 </td>
+						<td> My </td>
+						<td> Date Reported </td>
+						<td> Running </td>
+						<td> Date Opened </td>
+						<td> 12000 </td>
+						<td> 35000 </td> 
+						<td> 29000 </td>
+				</tr>
+				
+			</tbody>
+			<tfoot>
+					<tr>
+						<td>  </td>
+						<td> Lender </td>
+						<td> Account type </td>
+						<td> Account No </td>
+						<td> Owenship </td>
+						<td> Date Reported </td>
+						<td> Account Status </td>
+						<td> Date Opened </td>
+						<td> Sanction Amt/Highest Credit </td>
+						<td> Current Balance </td> 
+						<td> Amount Overdue </td>
+					</tr>
+			</tfoot>
+		</div>
+
+
+		
+		 <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>      
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>      
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>  
+		
+		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"> </script>  
+		<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"> </script>  
+		
+		<script>
+			$(.mydatatable').DataTable();
+		</script
+				
+</body>  
+</body>  
+</html>  
